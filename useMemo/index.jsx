@@ -1,4 +1,4 @@
-import React from 'react';
+import { useMemo } from 'react';
 import ReactDOM from 'react-dom/client';
 import Product from "./Product"
 import productsData from "./data"
@@ -29,7 +29,7 @@ function App() {
 
   const startTime2 = Date.now()
 
-  const sortedProducts = React.useMemo(() => {
+  const sortedProducts =useMemo(() => {
     return [...productsData].sort(
       (a, b) => a.name.localeCompare(b.name)
     )
