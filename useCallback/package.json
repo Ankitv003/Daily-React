@@ -1,0 +1,18 @@
+{
+  "name": "Scrim-s051uri",
+  "description": "https://scrimba.com/the-frontend-developer-career-path-c0j/~0151",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*"
+  }
+}
